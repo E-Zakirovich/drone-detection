@@ -1,0 +1,19 @@
+# path to data.yaml file
+data: "Data/data.yaml"
+
+# model
+model: "yolo8n.py"
+
+# training settings
+epochs: 50
+image_size: 640
+batch: 15
+
+# where the results go?
+project: "runs/train"
+name: "drone_yolov8n_v1"
+
+# reproducibility
+seed: 42
+
+device: "mps"
